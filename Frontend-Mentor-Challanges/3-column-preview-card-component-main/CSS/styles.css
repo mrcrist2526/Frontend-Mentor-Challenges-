@@ -1,0 +1,130 @@
+:root{
+  --head-font: 'Big Shoulders Display', cursive;
+  --body-font: 'Lexend Deca', sans-serif;
+}
+
+h1{
+  font-family: var(--head-font);
+  color: white;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: var(--body-font);
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: .9em;
+  font-weight: 400;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+
+.main-container{
+  display: flex;
+  height: 450px;
+
+}
+
+.box{
+  height: 450px;
+  width: 275px;
+}
+
+.left-box{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+.mid-box{
+  background-color: hsl(184, 100%, 22%);
+
+}
+
+.right-box{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+
+.image{
+  width: 180px;
+  margin: 40px auto 0px auto;
+}
+
+.text-box{
+  width: 180px;
+  margin: auto;
+}
+
+.button-box{
+  display: flex;
+}
+
+.button{
+  margin: 80px 0 0 47.5px;
+  border-radius: 20px;
+  width: 150px;
+  height: 45px;
+  border: solid white 2px;
+  background-color: white;
+  font-family: var(--body-font);
+}
+
+.button-sedan{
+  color: hsl(31, 77%, 52%);
+}
+
+.button-suv{
+  color: hsl(184, 100%, 22%);
+}
+.button-luxury{
+  color: hsl(179, 100%, 13%);
+}
+
+button:hover{
+  background-color: rgba(0, 0, 0, .1);
+  color: white;
+}
+
+footer{
+  text-align: center;
+}
+
+.attribution-links{
+  text-decoration: none;
+}
+
+
+
+@media (max-width: 850px){
+  .main-container{
+    flex-direction: column;
+    width: auto;
+  }
+}
+
+@media (max-width: 850px){
+  .box{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 850px){
+  main{
+    align-items: start;
+    height: 1350px;
+  }
+}
+
+@media (max-width: 850px){
+  .attribution{
+    text-align: center;
+  }
+}

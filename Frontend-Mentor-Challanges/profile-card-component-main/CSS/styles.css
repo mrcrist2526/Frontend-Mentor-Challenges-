@@ -1,0 +1,122 @@
+body{
+background-image: url(../images/bg-pattern-bottom.svg), url(../images/bg-pattern-top.svg);
+height: 100vh;
+width: 100vw;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: left 50vw top 50vh, right 50vw bottom 50vh;
+overflow: hidden;
+background-color: hsl(185, 75%, 39%);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+main{
+width: 300px;
+height: 325px;
+background: white;
+border-radius: 15px;
+align-items: center;
+position: relative;
+}
+
+hr{
+  border: solid hsl(0, 0%, 59%);
+  border-width: 1px 0 0 0;
+  opacity: .3;
+  margin-top: 20px;
+  }
+
+footer{
+  font-family: 'Kumbh Sans', sans-serif;
+  display: inline-block;
+  top: 90vh;
+  position: absolute;
+  letter-spacing: .1em;
+}
+
+#Victor{
+  border-radius: 100px;
+  position: relative;
+  left: 100px;
+  bottom: 50px;
+  border: solid white 5px;
+}
+
+.top{
+  width: 300px;
+  height: 125px;
+  border-radius: 15px 15px 0 0 ;
+  background-image: url(../images/bg-pattern-card.svg);
+}
+
+.profile-image{
+  height: 0;
+  width: 0;
+}
+
+.name-container{
+  text-align: center;
+  margin-top:50px;
+}
+
+#name{
+  display: inline-block;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 0;
+
+}
+#age{
+  display: inline-block;
+  font-family: 'Kumbh Sans', sans-serif;
+  color:hsl(0, 0%, 59%);
+  margin: 0;
+}
+
+.location{
+  margin-top:5px;
+  font-family: 'Kumbh Sans', sans-serif;
+  color:hsl(0, 0%, 59%);
+  font-size: .8em;
+}
+
+.stat-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.followers{
+  margin-left: 40px;
+}
+
+.photos{
+  margin-right:40px;
+}
+
+.info{
+  margin:0;
+}
+
+.stat-number{
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.stat-label{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: .6em;
+  letter-spacing: .1em;
+}
+
+.attribution{
+  color: white;
+}
+.footer-link{
+  text-decoration: none;
+  letter-spacing: .1em;
+  color: black;
+}
